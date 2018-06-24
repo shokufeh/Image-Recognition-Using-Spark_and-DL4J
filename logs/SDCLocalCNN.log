@@ -1,0 +1,57 @@
+****** Parameter Valies ******
+useUIServer: true
+modelType: LeNet
+dirPath: sdcdata/sdcdata1000c/
+maxExamples: 300
+numLabels: 3
+channels: 3
+epochs: 50
+iterations: 1
+height: 100
+width: 100
+batchSize: 18
+****** Loading images ******
+o.n.l.f.Nd4jBackend - Loaded [CpuBackend] backend
+o.n.n.NativeOpsHolder - Number of threads used for NativeOps: 4
+o.d.n.c.NeuralNetConfiguration - Layer "Layer cnn1" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer cnn1" rmsDecay is automatically set to 0.95. Add rmsDecay to configuration to change the value.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer cnn1" l1 or l2 has been added to configuration but useRegularization is set to false.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer maxpool1" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer maxpool1" rmsDecay is automatically set to 0.95. Add rmsDecay to configuration to change the value.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer maxpool1" l1 or l2 has been added to configuration but useRegularization is set to false.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer cnn2" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer cnn2" rmsDecay is automatically set to 0.95. Add rmsDecay to configuration to change the value.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer cnn2" l1 or l2 has been added to configuration but useRegularization is set to false.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer maxool2" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer maxool2" rmsDecay is automatically set to 0.95. Add rmsDecay to configuration to change the value.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer maxool2" l1 or l2 has been added to configuration but useRegularization is set to false.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" rmsDecay is automatically set to 0.95. Add rmsDecay to configuration to change the value.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" l1 or l2 has been added to configuration but useRegularization is set to false.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" rmsDecay is automatically set to 0.95. Add rmsDecay to configuration to change the value.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" l1 or l2 has been added to configuration but useRegularization is set to false.
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets pretrain to false.
+o.d.n.c.MultiLayerConfiguration - Warning: new network default sets backprop to true.
+o.d.u.p.PlayUIServer - UI Server started at http://localhost:9000
+o.d.u.p.PlayUIServer - StatsStorage instance attached to UI: FileStatsStorage(/Users/ow/UIData/UIdata.dat)
+****** Training network ******
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.d.i.MultipleEpochsIterator - Epoch 1, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 2, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 3, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 4, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 5, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 6, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 7, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 8, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 9, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 10, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 11, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 12, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 13, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 14, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 15, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 16, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 17, number of batches completed 14
+o.d.d.i.MultipleEpochsIterator - Epoch 18, number of batches completed 14

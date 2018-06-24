@@ -1,0 +1,2205 @@
+****** Parameter Valies ******
+useSparkLocal: true
+modelType: AlexNet
+dirPath: sdcdata/sdcdata1000c/
+numLabels: 3
+channels: 3
+epochs: 50
+iterations: 1
+height: 100
+width: 100
+batchSizePerWorker: 30
+****** Loading images ******
+07:41:25,339 INFO  ~ Loaded [CpuBackend] backend
+07:41:25,405 INFO  ~ Number of threads used for NativeOps: 4
+07:41:37,342 WARN  ~ Warning: new network default sets pretrain to false.
+07:41:37,342 WARN  ~ Warning: new network default sets backprop to true.
+****** Building network ******
+****** Training network ******
+07:41:38,254 INFO  ~ Initiating RDD<DataSet> export at /tmp/hadoop-ow/dl4j/1492774884623_-3c719ae/0/
+
+[Stage 0:>                                                          (0 + 0) / 2]
+[Stage 0:>                                                          (0 + 1) / 2]
+[Stage 0:>                                                          (0 + 2) / 2]
+                                                                                
+07:41:44,614 INFO  ~ RDD<DataSet> export complete at /tmp/hadoop-ow/dl4j/1492774884623_-3c719ae/0/
+07:41:44,803 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+07:41:47,019 INFO  ~ Number of threads used for BLAS: 4
+07:41:47,020 INFO  ~ Number of threads used for BLAS: 4
+
+[Stage 3:>                                                          (0 + 2) / 2]
+                                                                                
+07:42:14,273 INFO  ~ Completed training of split 1 of 8
+07:42:14,273 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 5:>                                                          (0 + 2) / 2]
+[Stage 5:=============================>                             (1 + 1) / 2]
+                                                                                
+07:42:35,800 INFO  ~ Completed training of split 2 of 8
+07:42:35,800 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 7:>                                                          (0 + 2) / 2]
+                                                                                
+07:42:57,924 INFO  ~ Completed training of split 3 of 8
+07:42:57,924 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 9:>                                                          (0 + 2) / 2]
+                                                                                
+07:43:19,752 INFO  ~ Completed training of split 4 of 8
+07:43:19,752 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 11:>                                                         (0 + 2) / 2]
+[Stage 11:=============================>                            (1 + 1) / 2]
+                                                                                
+07:43:41,476 INFO  ~ Completed training of split 5 of 8
+07:43:41,476 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 13:>                                                         (0 + 2) / 2]
+                                                                                
+07:44:03,295 INFO  ~ Completed training of split 6 of 8
+07:44:03,295 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 15:>                                                         (0 + 2) / 2]
+                                                                                
+07:44:24,881 INFO  ~ Completed training of split 7 of 8
+07:44:24,881 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 17:>                                                         (0 + 2) / 2]
+                                                                                
+07:44:46,752 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 0 ******
+07:44:46,854 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 20:>                                                         (0 + 2) / 2]
+                                                                                
+07:45:08,766 INFO  ~ Completed training of split 1 of 8
+07:45:08,766 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 22:>                                                         (0 + 2) / 2]
+                                                                                
+07:45:29,467 INFO  ~ Completed training of split 2 of 8
+07:45:29,467 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 24:>                                                         (0 + 2) / 2]
+                                                                                
+07:45:48,200 INFO  ~ Completed training of split 3 of 8
+07:45:48,200 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 26:>                                                         (0 + 2) / 2]
+                                                                                
+07:46:07,090 INFO  ~ Completed training of split 4 of 8
+07:46:07,090 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 28:>                                                         (0 + 2) / 2]
+                                                                                
+07:46:27,365 INFO  ~ Completed training of split 5 of 8
+07:46:27,365 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 30:>                                                         (0 + 2) / 2]
+                                                                                
+07:46:48,401 INFO  ~ Completed training of split 6 of 8
+07:46:48,401 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 32:>                                                         (0 + 2) / 2]
+[Stage 32:=============================>                            (1 + 1) / 2]
+                                                                                
+07:47:08,188 INFO  ~ Completed training of split 7 of 8
+07:47:08,188 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 34:>                                                         (0 + 2) / 2]
+                                                                                
+07:47:28,885 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 1 ******
+07:47:28,986 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 37:>                                                         (0 + 2) / 2]
+                                                                                
+07:47:49,543 INFO  ~ Completed training of split 1 of 8
+07:47:49,543 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 39:>                                                         (0 + 2) / 2]
+                                                                                
+07:48:10,448 INFO  ~ Completed training of split 2 of 8
+07:48:10,448 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 41:>                                                         (0 + 2) / 2]
+[Stage 41:=============================>                            (1 + 1) / 2]
+                                                                                
+07:48:32,314 INFO  ~ Completed training of split 3 of 8
+07:48:32,314 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 43:>                                                         (0 + 2) / 2]
+                                                                                
+07:48:53,051 INFO  ~ Completed training of split 4 of 8
+07:48:53,051 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 45:>                                                         (0 + 2) / 2]
+                                                                                
+07:49:13,335 INFO  ~ Completed training of split 5 of 8
+07:49:13,335 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 47:>                                                         (0 + 2) / 2]
+                                                                                
+07:49:33,104 INFO  ~ Completed training of split 6 of 8
+07:49:33,104 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 49:>                                                         (0 + 2) / 2]
+                                                                                
+07:49:52,704 INFO  ~ Completed training of split 7 of 8
+07:49:52,704 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 51:>                                                         (0 + 2) / 2]
+[Stage 51:=============================>                            (1 + 1) / 2]
+                                                                                
+07:50:12,366 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 2 ******
+07:50:12,460 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 54:>                                                         (0 + 2) / 2]
+                                                                                
+07:50:32,455 INFO  ~ Completed training of split 1 of 8
+07:50:32,455 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 56:>                                                         (0 + 2) / 2]
+                                                                                
+07:50:51,829 INFO  ~ Completed training of split 2 of 8
+07:50:51,829 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 58:>                                                         (0 + 2) / 2]
+                                                                                
+07:51:11,762 INFO  ~ Completed training of split 3 of 8
+07:51:11,762 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 60:>                                                         (0 + 2) / 2]
+                                                                                
+07:51:30,879 INFO  ~ Completed training of split 4 of 8
+07:51:30,879 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 62:>                                                         (0 + 2) / 2]
+                                                                                
+07:51:50,600 INFO  ~ Completed training of split 5 of 8
+07:51:50,600 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 64:>                                                         (0 + 2) / 2]
+[Stage 64:=============================>                            (1 + 1) / 2]
+                                                                                
+07:52:10,140 INFO  ~ Completed training of split 6 of 8
+07:52:10,140 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 66:>                                                         (0 + 2) / 2]
+                                                                                
+07:52:29,843 INFO  ~ Completed training of split 7 of 8
+07:52:29,843 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 68:>                                                         (0 + 2) / 2]
+                                                                                
+07:52:50,518 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 3 ******
+07:52:50,619 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 71:>                                                         (0 + 2) / 2]
+                                                                                
+07:53:10,522 INFO  ~ Completed training of split 1 of 8
+07:53:10,522 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 73:>                                                         (0 + 2) / 2]
+                                                                                
+07:53:30,415 INFO  ~ Completed training of split 2 of 8
+07:53:30,415 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 75:>                                                         (0 + 2) / 2]
+[Stage 75:=============================>                            (1 + 1) / 2]
+                                                                                
+07:53:50,563 INFO  ~ Completed training of split 3 of 8
+07:53:50,563 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 77:>                                                         (0 + 2) / 2]
+                                                                                
+07:54:11,002 INFO  ~ Completed training of split 4 of 8
+07:54:11,002 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 79:>                                                         (0 + 2) / 2]
+                                                                                
+07:54:30,566 INFO  ~ Completed training of split 5 of 8
+07:54:30,566 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 81:>                                                         (0 + 2) / 2]
+                                                                                
+07:54:50,884 INFO  ~ Completed training of split 6 of 8
+07:54:50,884 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 83:>                                                         (0 + 2) / 2]
+[Stage 83:=============================>                            (1 + 1) / 2]
+                                                                                
+07:55:10,709 INFO  ~ Completed training of split 7 of 8
+07:55:10,709 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 85:>                                                         (0 + 2) / 2]
+                                                                                
+07:55:31,503 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 4 ******
+07:55:31,595 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 88:>                                                         (0 + 2) / 2]
+                                                                                
+07:55:51,819 INFO  ~ Completed training of split 1 of 8
+07:55:51,819 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 90:>                                                         (0 + 2) / 2]
+                                                                                
+07:56:11,737 INFO  ~ Completed training of split 2 of 8
+07:56:11,738 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 92:>                                                         (0 + 2) / 2]
+[Stage 92:=============================>                            (1 + 1) / 2]
+                                                                                
+07:56:31,746 INFO  ~ Completed training of split 3 of 8
+07:56:31,746 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 94:>                                                         (0 + 2) / 2]
+                                                                                
+07:56:52,548 INFO  ~ Completed training of split 4 of 8
+07:56:52,548 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 96:>                                                         (0 + 2) / 2]
+                                                                                
+07:57:13,159 INFO  ~ Completed training of split 5 of 8
+07:57:13,159 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 98:>                                                         (0 + 2) / 2]
+                                                                                
+07:57:34,760 INFO  ~ Completed training of split 6 of 8
+07:57:34,760 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 100:>                                                        (0 + 2) / 2]
+                                                                                
+07:57:54,719 INFO  ~ Completed training of split 7 of 8
+07:57:54,719 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 102:>                                                        (0 + 2) / 2]
+                                                                                
+07:58:15,278 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 5 ******
+07:58:15,375 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 105:>                                                        (0 + 2) / 2]
+                                                                                
+07:58:36,561 INFO  ~ Completed training of split 1 of 8
+07:58:36,561 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 107:>                                                        (0 + 2) / 2]
+                                                                                
+07:58:57,934 INFO  ~ Completed training of split 2 of 8
+07:58:57,934 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 109:>                                                        (0 + 2) / 2]
+                                                                                
+07:59:18,244 INFO  ~ Completed training of split 3 of 8
+07:59:18,244 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 111:>                                                        (0 + 2) / 2]
+                                                                                
+07:59:39,204 INFO  ~ Completed training of split 4 of 8
+07:59:39,204 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 113:>                                                        (0 + 2) / 2]
+                                                                                
+07:59:59,645 INFO  ~ Completed training of split 5 of 8
+07:59:59,645 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 115:>                                                        (0 + 2) / 2]
+[Stage 115:============================>                            (1 + 1) / 2]
+                                                                                
+08:00:19,721 INFO  ~ Completed training of split 6 of 8
+08:00:19,721 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 117:>                                                        (0 + 2) / 2]
+                                                                                
+08:00:39,481 INFO  ~ Completed training of split 7 of 8
+08:00:39,481 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 119:>                                                        (0 + 2) / 2]
+                                                                                
+08:00:58,997 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 6 ******
+08:00:59,085 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 122:>                                                        (0 + 2) / 2]
+                                                                                
+08:01:18,622 INFO  ~ Completed training of split 1 of 8
+08:01:18,622 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 124:>                                                        (0 + 2) / 2]
+                                                                                
+08:01:38,456 INFO  ~ Completed training of split 2 of 8
+08:01:38,456 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 126:>                                                        (0 + 2) / 2]
+                                                                                
+08:01:58,798 INFO  ~ Completed training of split 3 of 8
+08:01:58,798 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 128:>                                                        (0 + 2) / 2]
+                                                                                
+08:02:18,142 INFO  ~ Completed training of split 4 of 8
+08:02:18,143 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 130:>                                                        (0 + 2) / 2]
+                                                                                
+08:02:38,346 INFO  ~ Completed training of split 5 of 8
+08:02:38,346 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 132:>                                                        (0 + 2) / 2]
+                                                                                
+08:02:58,364 INFO  ~ Completed training of split 6 of 8
+08:02:58,364 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 134:>                                                        (0 + 2) / 2]
+[Stage 134:============================>                            (1 + 1) / 2]
+                                                                                
+08:03:18,371 INFO  ~ Completed training of split 7 of 8
+08:03:18,371 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 136:>                                                        (0 + 2) / 2]
+[Stage 136:============================>                            (1 + 1) / 2]
+                                                                                
+08:03:38,492 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 7 ******
+08:03:38,581 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 139:>                                                        (0 + 2) / 2]
+                                                                                
+08:03:58,565 INFO  ~ Completed training of split 1 of 8
+08:03:58,565 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 141:>                                                        (0 + 2) / 2]
+                                                                                
+08:04:18,274 INFO  ~ Completed training of split 2 of 8
+08:04:18,274 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 143:>                                                        (0 + 2) / 2]
+                                                                                
+08:04:38,083 INFO  ~ Completed training of split 3 of 8
+08:04:38,083 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 145:>                                                        (0 + 2) / 2]
+                                                                                
+08:04:57,809 INFO  ~ Completed training of split 4 of 8
+08:04:57,809 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 147:>                                                        (0 + 2) / 2]
+                                                                                
+08:05:17,889 INFO  ~ Completed training of split 5 of 8
+08:05:17,889 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 149:>                                                        (0 + 2) / 2]
+                                                                                
+08:05:37,162 INFO  ~ Completed training of split 6 of 8
+08:05:37,162 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 151:>                                                        (0 + 2) / 2]
+                                                                                
+08:05:56,113 INFO  ~ Completed training of split 7 of 8
+08:05:56,113 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 153:>                                                        (0 + 2) / 2]
+                                                                                
+08:06:16,477 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 8 ******
+08:06:16,570 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 156:>                                                        (0 + 2) / 2]
+                                                                                
+08:06:36,728 INFO  ~ Completed training of split 1 of 8
+08:06:36,728 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 158:>                                                        (0 + 2) / 2]
+                                                                                
+08:06:56,485 INFO  ~ Completed training of split 2 of 8
+08:06:56,485 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 160:>                                                        (0 + 2) / 2]
+                                                                                
+08:07:16,628 INFO  ~ Completed training of split 3 of 8
+08:07:16,628 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 162:>                                                        (0 + 2) / 2]
+[Stage 162:============================>                            (1 + 1) / 2]
+                                                                                
+08:07:35,826 INFO  ~ Completed training of split 4 of 8
+08:07:35,826 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 164:>                                                        (0 + 2) / 2]
+                                                                                
+08:07:55,448 INFO  ~ Completed training of split 5 of 8
+08:07:55,448 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 166:>                                                        (0 + 2) / 2]
+                                                                                
+08:08:15,616 INFO  ~ Completed training of split 6 of 8
+08:08:15,617 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 168:>                                                        (0 + 2) / 2]
+[Stage 168:============================>                            (1 + 1) / 2]
+                                                                                
+08:08:34,884 INFO  ~ Completed training of split 7 of 8
+08:08:34,885 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 170:>                                                        (0 + 2) / 2]
+                                                                                
+08:08:54,530 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 9 ******
+08:08:54,611 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 173:>                                                        (0 + 2) / 2]
+                                                                                
+08:09:16,233 INFO  ~ Completed training of split 1 of 8
+08:09:16,233 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 175:>                                                        (0 + 2) / 2]08:09:36,137 INFO  ~ Completed training of split 2 of 8
+08:09:36,137 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 175:============================>                            (1 + 1) / 2]
+                                                                                
+
+[Stage 177:>                                                        (0 + 2) / 2]08:09:56,297 INFO  ~ Completed training of split 3 of 8
+
+                                                                                
+
+[Stage 179:>                                                        (0 + 2) / 2]08:09:56,297 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 179:============================>                            (1 + 1) / 2]
+                                                                                
+
+[Stage 181:>                                                        (0 + 2) / 2]08:10:16,629 INFO  ~ Completed training of split 4 of 8
+08:10:16,629 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 181:============================>                            (1 + 1) / 2]
+                                                                                
+
+[Stage 183:>                                                        (0 + 2) / 2]08:10:37,426 INFO  ~ Completed training of split 5 of 8
+08:10:37,426 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+08:10:58,114 INFO  ~ Completed training of split 6 of 8
+
+                                                                                
+
+[Stage 185:>                                                        (0 + 2) / 2]08:10:58,114 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+08:11:18,434 INFO  ~ Completed training of split 7 of 8
+
+                                                                                
+
+[Stage 187:>                                                        (0 + 2) / 2]08:11:18,434 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+                                                                                
+
+[Stage 190:>                                                        (0 + 2) / 2]08:11:38,534 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 10 ******
+08:11:38,680 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+                                                                                
+
+[Stage 192:>                                                        (0 + 2) / 2]08:11:58,343 INFO  ~ Completed training of split 1 of 8
+08:11:58,343 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+                                                                                
+
+[Stage 194:>                                                        (0 + 2) / 2]08:12:17,600 INFO  ~ Completed training of split 2 of 8
+08:12:17,600 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+                                                                                
+
+[Stage 196:>                                                        (0 + 2) / 2]
+                                                                                08:12:37,598 INFO  ~ Completed training of split 3 of 8
+08:12:37,598 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+08:12:57,031 INFO  ~ Completed training of split 4 of 8
+08:12:57,031 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+
+[Stage 198:>                                                        (0 + 2) / 2]
+[Stage 198:============================>                            (1 + 1) / 2]
+                                                                                
+08:13:16,097 INFO  ~ Completed training of split 5 of 8
+08:13:16,097 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 200:>                                                        (0 + 2) / 2]
+                                                                                
+
+[Stage 202:>                                                        (0 + 2) / 2]08:13:35,849 INFO  ~ Completed training of split 6 of 8
+08:13:35,849 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+08:13:54,968 INFO  ~ Completed training of split 7 of 8
+
+                                                                                
+
+[Stage 204:>                                                        (0 + 2) / 2]08:13:54,968 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 204:============================>                            (1 + 1) / 2]
+                                                                                
+08:14:15,472 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 11 ******
+08:14:15,543 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 207:>                                                        (0 + 2) / 2]
+                                                                                
+08:14:38,139 INFO  ~ Completed training of split 1 of 8
+08:14:38,139 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 209:>                                                        (0 + 2) / 2]
+                                                                                
+08:14:59,457 INFO  ~ Completed training of split 2 of 8
+08:14:59,457 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 211:>                                                        (0 + 2) / 2]
+                                                                                
+08:15:21,885 INFO  ~ Completed training of split 3 of 8
+08:15:21,885 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 213:>                                                        (0 + 2) / 2]
+[Stage 213:============================>                            (1 + 1) / 2]
+                                                                                
+08:15:42,431 INFO  ~ Completed training of split 4 of 8
+08:15:42,431 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 215:>                                                        (0 + 2) / 2]
+                                                                                
+08:16:04,379 INFO  ~ Completed training of split 5 of 8
+08:16:04,379 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 217:>                                                        (0 + 2) / 2]
+                                                                                
+08:16:24,192 INFO  ~ Completed training of split 6 of 8
+08:16:24,192 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 219:>                                                        (0 + 2) / 2]
+                                                                                
+08:16:43,929 INFO  ~ Completed training of split 7 of 8
+08:16:43,929 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 221:>                                                        (0 + 2) / 2]
+                                                                                
+08:17:03,579 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 12 ******
+08:17:03,641 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 224:>                                                        (0 + 2) / 2]
+                                                                                
+08:17:24,356 INFO  ~ Completed training of split 1 of 8
+08:17:24,356 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 226:>                                                        (0 + 2) / 2]
+                                                                                
+08:17:46,230 INFO  ~ Completed training of split 2 of 8
+08:17:46,230 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 228:>                                                        (0 + 2) / 2]
+                                                                                
+08:18:07,409 INFO  ~ Completed training of split 3 of 8
+08:18:07,409 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 230:>                                                        (0 + 2) / 2]
+                                                                                
+08:18:29,111 INFO  ~ Completed training of split 4 of 8
+08:18:29,111 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 232:>                                                        (0 + 2) / 2]
+                                                                                
+08:18:50,463 INFO  ~ Completed training of split 5 of 8
+08:18:50,463 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 234:>                                                        (0 + 2) / 2]
+                                                                                
+08:19:11,075 INFO  ~ Completed training of split 6 of 8
+08:19:11,075 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 236:>                                                        (0 + 2) / 2]
+                                                                                
+08:19:32,513 INFO  ~ Completed training of split 7 of 8
+08:19:32,513 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 238:>                                                        (0 + 2) / 2]
+[Stage 238:============================>                            (1 + 1) / 2]
+                                                                                
+08:19:53,447 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 13 ******
+08:19:53,508 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 241:>                                                        (0 + 2) / 2]
+                                                                                
+08:20:14,710 INFO  ~ Completed training of split 1 of 8
+08:20:14,710 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 243:>                                                        (0 + 2) / 2]
+                                                                                
+08:20:35,786 INFO  ~ Completed training of split 2 of 8
+08:20:35,786 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 245:>                                                        (0 + 2) / 2]
+[Stage 245:============================>                            (1 + 1) / 2]
+                                                                                
+08:20:57,518 INFO  ~ Completed training of split 3 of 8
+08:20:57,518 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 247:>                                                        (0 + 2) / 2]
+[Stage 247:============================>                            (1 + 1) / 2]
+                                                                                
+08:21:18,499 INFO  ~ Completed training of split 4 of 8
+08:21:18,500 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 249:>                                                        (0 + 2) / 2]
+                                                                                
+08:21:38,478 INFO  ~ Completed training of split 5 of 8
+08:21:38,478 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 251:>                                                        (0 + 2) / 2]
+                                                                                
+08:22:00,535 INFO  ~ Completed training of split 6 of 8
+08:22:00,535 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 253:>                                                        (0 + 2) / 2]
+                                                                                
+08:22:20,344 INFO  ~ Completed training of split 7 of 8
+08:22:20,345 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 255:>                                                        (0 + 2) / 2]
+                                                                                
+08:22:42,138 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 14 ******
+08:22:42,202 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 258:>                                                        (0 + 2) / 2]
+                                                                                
+08:23:02,823 INFO  ~ Completed training of split 1 of 8
+08:23:02,823 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 260:>                                                        (0 + 2) / 2]
+                                                                                
+08:23:22,606 INFO  ~ Completed training of split 2 of 8
+08:23:22,606 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 262:>                                                        (0 + 2) / 2]
+[Stage 262:============================>                            (1 + 1) / 2]
+                                                                                
+08:23:42,761 INFO  ~ Completed training of split 3 of 8
+08:23:42,761 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 264:>                                                        (0 + 2) / 2]
+                                                                                
+08:24:02,751 INFO  ~ Completed training of split 4 of 8
+08:24:02,752 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 266:>                                                        (0 + 2) / 2]
+                                                                                
+08:24:23,246 INFO  ~ Completed training of split 5 of 8
+08:24:23,246 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 268:>                                                        (0 + 2) / 2]
+[Stage 268:============================>                            (1 + 1) / 2]
+                                                                                
+08:24:43,715 INFO  ~ Completed training of split 6 of 8
+08:24:43,715 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 270:>                                                        (0 + 2) / 2]
+                                                                                
+08:25:03,372 INFO  ~ Completed training of split 7 of 8
+08:25:03,372 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 272:>                                                        (0 + 2) / 2]
+                                                                                
+08:25:24,466 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 15 ******
+08:25:24,525 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 275:>                                                        (0 + 2) / 2]
+[Stage 275:============================>                            (1 + 1) / 2]
+                                                                                
+08:25:45,849 INFO  ~ Completed training of split 1 of 8
+08:25:45,849 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 277:>                                                        (0 + 2) / 2]
+                                                                                
+08:26:07,309 INFO  ~ Completed training of split 2 of 8
+08:26:07,309 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 279:>                                                        (0 + 2) / 2]
+[Stage 279:============================>                            (1 + 1) / 2]
+                                                                                
+08:26:30,301 INFO  ~ Completed training of split 3 of 8
+08:26:30,301 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 281:>                                                        (0 + 2) / 2]
+                                                                                
+08:26:52,999 INFO  ~ Completed training of split 4 of 8
+08:26:52,999 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 283:>                                                        (0 + 2) / 2]
+                                                                                
+08:27:13,592 INFO  ~ Completed training of split 5 of 8
+08:27:13,593 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 285:>                                                        (0 + 2) / 2]
+                                                                                
+08:27:33,849 INFO  ~ Completed training of split 6 of 8
+08:27:33,849 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 287:>                                                        (0 + 2) / 2]
+[Stage 287:============================>                            (1 + 1) / 2]
+                                                                                
+08:27:55,534 INFO  ~ Completed training of split 7 of 8
+08:27:55,534 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 289:>                                                        (0 + 2) / 2]
+                                                                                
+08:28:15,399 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 16 ******
+08:28:15,460 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 292:>                                                        (0 + 2) / 2]
+[Stage 292:============================>                            (1 + 1) / 2]
+                                                                                
+08:28:35,518 INFO  ~ Completed training of split 1 of 8
+08:28:35,519 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 294:>                                                        (0 + 2) / 2]
+[Stage 294:============================>                            (1 + 1) / 2]
+                                                                                
+08:28:55,733 INFO  ~ Completed training of split 2 of 8
+08:28:55,733 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 296:>                                                        (0 + 2) / 2]
+[Stage 296:============================>                            (1 + 1) / 2]
+                                                                                
+08:29:18,119 INFO  ~ Completed training of split 3 of 8
+08:29:18,119 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 298:>                                                        (0 + 2) / 2]
+                                                                                
+08:29:40,858 INFO  ~ Completed training of split 4 of 8
+08:29:40,858 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 300:>                                                        (0 + 2) / 2]
+                                                                                
+08:30:03,343 INFO  ~ Completed training of split 5 of 8
+08:30:03,343 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 302:>                                                        (0 + 2) / 2]
+                                                                                
+08:30:23,502 INFO  ~ Completed training of split 6 of 8
+08:30:23,502 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 304:>                                                        (0 + 2) / 2]
+                                                                                
+08:30:43,859 INFO  ~ Completed training of split 7 of 8
+08:30:43,859 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 306:>                                                        (0 + 2) / 2]
+[Stage 306:============================>                            (1 + 1) / 2]
+                                                                                
+08:31:05,181 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 17 ******
+08:31:05,247 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 309:>                                                        (0 + 2) / 2]
+[Stage 309:============================>                            (1 + 1) / 2]
+                                                                                
+08:31:25,248 INFO  ~ Completed training of split 1 of 8
+08:31:25,248 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 311:>                                                        (0 + 2) / 2]
+[Stage 311:============================>                            (1 + 1) / 2]
+                                                                                
+08:31:45,075 INFO  ~ Completed training of split 2 of 8
+08:31:45,075 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 313:>                                                        (0 + 2) / 2]
+                                                                                
+08:32:05,623 INFO  ~ Completed training of split 3 of 8
+08:32:05,623 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 315:>                                                        (0 + 2) / 2]
+[Stage 315:============================>                            (1 + 1) / 2]
+                                                                                
+08:32:26,245 INFO  ~ Completed training of split 4 of 8
+08:32:26,246 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 317:>                                                        (0 + 2) / 2]
+[Stage 317:============================>                            (1 + 1) / 2]
+                                                                                
+08:32:47,765 INFO  ~ Completed training of split 5 of 8
+08:32:47,765 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 319:>                                                        (0 + 2) / 2]
+                                                                                
+08:33:11,432 INFO  ~ Completed training of split 6 of 8
+08:33:11,432 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 321:>                                                        (0 + 2) / 2]
+[Stage 321:============================>                            (1 + 1) / 2]
+                                                                                
+08:33:33,499 INFO  ~ Completed training of split 7 of 8
+08:33:33,499 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 323:>                                                        (0 + 2) / 2]
+                                                                                
+08:33:56,056 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 18 ******
+08:33:56,128 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 326:>                                                        (0 + 2) / 2]
+[Stage 326:============================>                            (1 + 1) / 2]
+                                                                                
+08:34:18,876 INFO  ~ Completed training of split 1 of 8
+08:34:18,876 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 328:>                                                        (0 + 2) / 2]
+                                                                                
+08:34:40,407 INFO  ~ Completed training of split 2 of 8
+08:34:40,407 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 330:>                                                        (0 + 2) / 2]
+[Stage 330:============================>                            (1 + 1) / 2]
+                                                                                
+08:35:02,589 INFO  ~ Completed training of split 3 of 8
+08:35:02,589 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 332:>                                                        (0 + 2) / 2]
+                                                                                
+08:35:24,831 INFO  ~ Completed training of split 4 of 8
+08:35:24,831 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 334:>                                                        (0 + 2) / 2]
+[Stage 334:============================>                            (1 + 1) / 2]
+                                                                                
+08:35:45,978 INFO  ~ Completed training of split 5 of 8
+08:35:45,978 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 336:>                                                        (0 + 2) / 2]
+                                                                                
+08:36:07,237 INFO  ~ Completed training of split 6 of 8
+08:36:07,237 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 338:>                                                        (0 + 2) / 2]
+[Stage 338:============================>                            (1 + 1) / 2]
+                                                                                
+08:36:28,651 INFO  ~ Completed training of split 7 of 8
+08:36:28,651 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 340:>                                                        (0 + 2) / 2]
+[Stage 340:============================>                            (1 + 1) / 2]
+                                                                                
+08:36:49,341 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 19 ******
+08:36:49,400 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 343:>                                                        (0 + 2) / 2]
+[Stage 343:============================>                            (1 + 1) / 2]
+                                                                                
+08:37:10,786 INFO  ~ Completed training of split 1 of 8
+08:37:10,786 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 345:>                                                        (0 + 2) / 2]
+[Stage 345:============================>                            (1 + 1) / 2]
+                                                                                
+08:37:31,742 INFO  ~ Completed training of split 2 of 8
+08:37:31,742 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 347:>                                                        (0 + 2) / 2]
+                                                                                
+08:37:53,479 INFO  ~ Completed training of split 3 of 8
+08:37:53,479 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 349:>                                                        (0 + 2) / 2]
+                                                                                
+08:38:14,065 INFO  ~ Completed training of split 4 of 8
+08:38:14,065 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 351:>                                                        (0 + 2) / 2]
+                                                                                
+08:38:35,561 INFO  ~ Completed training of split 5 of 8
+08:38:35,561 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 353:>                                                        (0 + 2) / 2]
+                                                                                
+08:38:56,945 INFO  ~ Completed training of split 6 of 8
+08:38:56,945 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 355:>                                                        (0 + 2) / 2]
+                                                                                
+08:39:17,825 INFO  ~ Completed training of split 7 of 8
+08:39:17,825 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 357:>                                                        (0 + 2) / 2]
+                                                                                
+08:39:38,020 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 20 ******
+08:39:38,086 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 360:>                                                        (0 + 2) / 2]
+[Stage 360:============================>                            (1 + 1) / 2]
+                                                                                
+08:39:59,040 INFO  ~ Completed training of split 1 of 8
+08:39:59,040 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 362:>                                                        (0 + 2) / 2]
+                                                                                
+08:40:19,918 INFO  ~ Completed training of split 2 of 8
+08:40:19,918 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 364:>                                                        (0 + 2) / 2]
+                                                                                
+08:40:42,004 INFO  ~ Completed training of split 3 of 8
+08:40:42,004 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 366:>                                                        (0 + 2) / 2]
+                                                                                
+08:41:01,847 INFO  ~ Completed training of split 4 of 8
+08:41:01,847 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 368:>                                                        (0 + 2) / 2]
+                                                                                
+08:41:22,675 INFO  ~ Completed training of split 5 of 8
+08:41:22,675 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 370:>                                                        (0 + 2) / 2]
+                                                                                
+08:41:43,168 INFO  ~ Completed training of split 6 of 8
+08:41:43,168 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 372:>                                                        (0 + 2) / 2]
+                                                                                
+08:42:04,179 INFO  ~ Completed training of split 7 of 8
+08:42:04,179 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 374:>                                                        (0 + 2) / 2]
+                                                                                
+08:42:25,781 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 21 ******
+08:42:25,854 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 377:>                                                        (0 + 2) / 2]
+                                                                                
+08:42:46,199 INFO  ~ Completed training of split 1 of 8
+08:42:46,199 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 379:>                                                        (0 + 2) / 2]
+[Stage 379:============================>                            (1 + 1) / 2]
+                                                                                
+08:43:05,993 INFO  ~ Completed training of split 2 of 8
+08:43:05,993 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 381:>                                                        (0 + 2) / 2]
+[Stage 381:============================>                            (1 + 1) / 2]
+                                                                                
+08:43:27,313 INFO  ~ Completed training of split 3 of 8
+08:43:27,313 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 383:>                                                        (0 + 2) / 2]
+                                                                                
+08:43:48,061 INFO  ~ Completed training of split 4 of 8
+08:43:48,061 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 385:>                                                        (0 + 2) / 2]
+[Stage 385:============================>                            (1 + 1) / 2]
+                                                                                
+08:44:10,426 INFO  ~ Completed training of split 5 of 8
+08:44:10,426 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 387:>                                                        (0 + 2) / 2]
+                                                                                
+08:44:31,914 INFO  ~ Completed training of split 6 of 8
+08:44:31,914 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 389:>                                                        (0 + 2) / 2]
+                                                                                
+08:44:51,840 INFO  ~ Completed training of split 7 of 8
+08:44:51,840 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 391:>                                                        (0 + 2) / 2]
+[Stage 391:============================>                            (1 + 1) / 2]
+                                                                                
+08:45:12,667 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 22 ******
+08:45:12,756 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 394:>                                                        (0 + 2) / 2]
+                                                                                
+08:45:34,457 INFO  ~ Completed training of split 1 of 8
+08:45:34,457 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 396:>                                                        (0 + 2) / 2]
+                                                                                
+08:45:55,265 INFO  ~ Completed training of split 2 of 8
+08:45:55,265 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 398:>                                                        (0 + 2) / 2]
+                                                                                
+08:46:16,287 INFO  ~ Completed training of split 3 of 8
+08:46:16,287 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 400:>                                                        (0 + 2) / 2]
+                                                                                
+08:46:37,486 INFO  ~ Completed training of split 4 of 8
+08:46:37,486 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 402:>                                                        (0 + 2) / 2]
+                                                                                
+08:46:57,783 INFO  ~ Completed training of split 5 of 8
+08:46:57,783 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 404:>                                                        (0 + 2) / 2]
+                                                                                
+08:47:19,373 INFO  ~ Completed training of split 6 of 8
+08:47:19,373 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 406:>                                                        (0 + 2) / 2]
+                                                                                
+08:47:40,389 INFO  ~ Completed training of split 7 of 8
+08:47:40,390 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 408:>                                                        (0 + 2) / 2]
+                                                                                
+08:48:00,723 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 23 ******
+08:48:00,814 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 411:>                                                        (0 + 2) / 2]
+                                                                                
+08:48:22,086 INFO  ~ Completed training of split 1 of 8
+08:48:22,086 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 413:>                                                        (0 + 2) / 2]
+                                                                                
+08:48:42,978 INFO  ~ Completed training of split 2 of 8
+08:48:42,978 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 415:>                                                        (0 + 2) / 2]
+                                                                                
+08:49:03,285 INFO  ~ Completed training of split 3 of 8
+08:49:03,285 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 417:>                                                        (0 + 2) / 2]
+                                                                                
+08:49:23,924 INFO  ~ Completed training of split 4 of 8
+08:49:23,925 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 419:>                                                        (0 + 2) / 2]
+                                                                                
+08:49:45,256 INFO  ~ Completed training of split 5 of 8
+08:49:45,256 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 421:>                                                        (0 + 2) / 2]
+                                                                                
+08:50:06,096 INFO  ~ Completed training of split 6 of 8
+08:50:06,096 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 423:>                                                        (0 + 2) / 2]
+                                                                                
+08:50:27,275 INFO  ~ Completed training of split 7 of 8
+08:50:27,275 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 425:>                                                        (0 + 2) / 2]
+                                                                                
+08:50:48,654 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 24 ******
+08:50:48,754 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 428:>                                                        (0 + 2) / 2]
+[Stage 428:============================>                            (1 + 1) / 2]
+                                                                                
+08:51:10,064 INFO  ~ Completed training of split 1 of 8
+08:51:10,064 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 430:>                                                        (0 + 2) / 2]
+                                                                                
+08:51:30,845 INFO  ~ Completed training of split 2 of 8
+08:51:30,845 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 432:>                                                        (0 + 2) / 2]
+                                                                                
+08:51:53,271 INFO  ~ Completed training of split 3 of 8
+08:51:53,271 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 434:>                                                        (0 + 2) / 2]
+                                                                                
+08:52:16,969 INFO  ~ Completed training of split 4 of 8
+08:52:16,969 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 436:>                                                        (0 + 2) / 2]
+                                                                                
+08:52:39,281 INFO  ~ Completed training of split 5 of 8
+08:52:39,281 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 438:>                                                        (0 + 2) / 2]
+[Stage 438:============================>                            (1 + 1) / 2]
+                                                                                
+08:52:59,632 INFO  ~ Completed training of split 6 of 8
+08:52:59,632 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 440:>                                                        (0 + 2) / 2]
+[Stage 440:============================>                            (1 + 1) / 2]
+                                                                                
+08:53:19,989 INFO  ~ Completed training of split 7 of 8
+08:53:19,989 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 442:>                                                        (0 + 0) / 2]
+[Stage 442:>                                                        (0 + 2) / 2]
+                                                                                
+08:53:40,194 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 25 ******
+08:53:40,271 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 445:>                                                        (0 + 2) / 2]
+                                                                                
+08:53:59,816 INFO  ~ Completed training of split 1 of 8
+08:53:59,816 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 447:>                                                        (0 + 2) / 2]
+                                                                                
+08:54:20,032 INFO  ~ Completed training of split 2 of 8
+08:54:20,032 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 449:>                                                        (0 + 2) / 2]
+                                                                                
+08:54:40,414 INFO  ~ Completed training of split 3 of 8
+08:54:40,414 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 451:>                                                        (0 + 2) / 2]
+                                                                                
+08:54:59,588 INFO  ~ Completed training of split 4 of 8
+08:54:59,588 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 453:>                                                        (0 + 2) / 2]
+[Stage 453:============================>                            (1 + 1) / 2]
+                                                                                
+08:55:19,309 INFO  ~ Completed training of split 5 of 8
+08:55:19,309 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 455:>                                                        (0 + 2) / 2]
+                                                                                
+08:55:39,164 INFO  ~ Completed training of split 6 of 8
+08:55:39,164 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 457:>                                                        (0 + 2) / 2]
+                                                                                
+08:56:02,705 INFO  ~ Completed training of split 7 of 8
+08:56:02,706 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 459:>                                                        (0 + 2) / 2]
+                                                                                
+08:56:23,652 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 26 ******
+08:56:23,741 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 462:>                                                        (0 + 2) / 2]
+                                                                                
+08:56:44,204 INFO  ~ Completed training of split 1 of 8
+08:56:44,205 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 464:>                                                        (0 + 2) / 2]
+                                                                                
+08:57:05,375 INFO  ~ Completed training of split 2 of 8
+08:57:05,375 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 466:>                                                        (0 + 2) / 2]
+                                                                                
+08:57:25,106 INFO  ~ Completed training of split 3 of 8
+08:57:25,106 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 468:>                                                        (0 + 2) / 2]
+                                                                                
+08:57:46,102 INFO  ~ Completed training of split 4 of 8
+08:57:46,102 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 470:>                                                        (0 + 2) / 2]
+                                                                                
+08:58:06,431 INFO  ~ Completed training of split 5 of 8
+08:58:06,431 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 472:>                                                        (0 + 2) / 2]
+                                                                                
+08:58:27,016 INFO  ~ Completed training of split 6 of 8
+08:58:27,016 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 474:>                                                        (0 + 2) / 2]
+[Stage 474:============================>                            (1 + 1) / 2]
+                                                                                
+08:58:47,050 INFO  ~ Completed training of split 7 of 8
+08:58:47,050 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 476:>                                                        (0 + 2) / 2]
+                                                                                
+08:59:06,644 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 27 ******
+08:59:06,728 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 479:>                                                        (0 + 2) / 2]
+                                                                                
+08:59:26,525 INFO  ~ Completed training of split 1 of 8
+08:59:26,525 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 481:>                                                        (0 + 2) / 2]
+                                                                                
+08:59:46,525 INFO  ~ Completed training of split 2 of 8
+08:59:46,525 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 483:>                                                        (0 + 2) / 2]
+                                                                                
+09:00:05,741 INFO  ~ Completed training of split 3 of 8
+09:00:05,741 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 485:>                                                        (0 + 2) / 2]
+                                                                                
+09:00:24,703 INFO  ~ Completed training of split 4 of 8
+09:00:24,703 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 487:>                                                        (0 + 2) / 2]
+                                                                                
+09:00:44,702 INFO  ~ Completed training of split 5 of 8
+09:00:44,702 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 489:>                                                        (0 + 2) / 2]
+                                                                                
+09:01:03,922 INFO  ~ Completed training of split 6 of 8
+09:01:03,922 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 491:>                                                        (0 + 2) / 2]
+                                                                                
+09:01:23,174 INFO  ~ Completed training of split 7 of 8
+09:01:23,174 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 493:>                                                        (0 + 2) / 2]
+                                                                                
+09:01:42,792 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 28 ******
+09:01:42,863 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 496:>                                                        (0 + 2) / 2]
+                                                                                
+09:02:03,270 INFO  ~ Completed training of split 1 of 8
+09:02:03,270 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 498:>                                                        (0 + 2) / 2]
+                                                                                
+09:02:22,813 INFO  ~ Completed training of split 2 of 8
+09:02:22,813 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 500:>                                                        (0 + 2) / 2]
+                                                                                
+09:02:42,563 INFO  ~ Completed training of split 3 of 8
+09:02:42,563 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 502:>                                                        (0 + 2) / 2]
+                                                                                
+09:03:02,196 INFO  ~ Completed training of split 4 of 8
+09:03:02,196 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 504:>                                                        (0 + 2) / 2]
+                                                                                
+09:03:21,067 INFO  ~ Completed training of split 5 of 8
+09:03:21,067 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 506:>                                                        (0 + 2) / 2]
+[Stage 506:============================>                            (1 + 1) / 2]
+                                                                                
+09:03:41,101 INFO  ~ Completed training of split 6 of 8
+09:03:41,101 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 508:>                                                        (0 + 2) / 2]
+                                                                                
+09:04:01,412 INFO  ~ Completed training of split 7 of 8
+09:04:01,412 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 510:>                                                        (0 + 2) / 2]
+                                                                                
+09:04:21,205 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 29 ******
+09:04:21,272 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 513:>                                                        (0 + 2) / 2]
+                                                                                
+09:04:41,138 INFO  ~ Completed training of split 1 of 8
+09:04:41,138 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 515:>                                                        (0 + 2) / 2]
+                                                                                
+09:05:00,330 INFO  ~ Completed training of split 2 of 8
+09:05:00,330 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 517:>                                                        (0 + 2) / 2]
+                                                                                
+09:05:19,569 INFO  ~ Completed training of split 3 of 8
+09:05:19,569 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 519:>                                                        (0 + 2) / 2]
+                                                                                
+09:05:39,179 INFO  ~ Completed training of split 4 of 8
+09:05:39,179 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 521:>                                                        (0 + 2) / 2]
+                                                                                
+09:05:58,194 INFO  ~ Completed training of split 5 of 8
+09:05:58,194 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 523:>                                                        (0 + 2) / 2]
+                                                                                
+09:06:17,258 INFO  ~ Completed training of split 6 of 8
+09:06:17,258 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 525:>                                                        (0 + 2) / 2]
+                                                                                
+09:06:36,703 INFO  ~ Completed training of split 7 of 8
+09:06:36,703 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 527:>                                                        (0 + 2) / 2]
+                                                                                
+09:06:56,091 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 30 ******
+09:06:56,160 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 530:>                                                        (0 + 2) / 2]
+                                                                                
+09:07:15,841 INFO  ~ Completed training of split 1 of 8
+09:07:15,841 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 532:>                                                        (0 + 2) / 2]
+                                                                                
+09:07:35,204 INFO  ~ Completed training of split 2 of 8
+09:07:35,204 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 534:>                                                        (0 + 2) / 2]
+                                                                                
+09:07:55,075 INFO  ~ Completed training of split 3 of 8
+09:07:55,076 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 536:>                                                        (0 + 2) / 2]
+                                                                                
+09:08:15,432 INFO  ~ Completed training of split 4 of 8
+09:08:15,432 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 538:>                                                        (0 + 2) / 2]
+[Stage 538:============================>                            (1 + 1) / 2]
+                                                                                
+09:08:36,571 INFO  ~ Completed training of split 5 of 8
+09:08:36,571 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 540:>                                                        (0 + 2) / 2]
+                                                                                
+09:08:56,033 INFO  ~ Completed training of split 6 of 8
+09:08:56,033 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 542:>                                                        (0 + 2) / 2]
+[Stage 542:============================>                            (1 + 1) / 2]
+                                                                                
+09:09:17,159 INFO  ~ Completed training of split 7 of 8
+09:09:17,159 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 544:>                                                        (0 + 2) / 2]
+                                                                                
+09:09:37,083 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 31 ******
+09:09:37,147 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 547:>                                                        (0 + 2) / 2]
+[Stage 547:============================>                            (1 + 1) / 2]
+                                                                                
+09:09:58,011 INFO  ~ Completed training of split 1 of 8
+09:09:58,011 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 549:>                                                        (0 + 2) / 2]
+                                                                                
+09:10:17,425 INFO  ~ Completed training of split 2 of 8
+09:10:17,425 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 551:>                                                        (0 + 2) / 2]
+                                                                                
+09:10:37,630 INFO  ~ Completed training of split 3 of 8
+09:10:37,630 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 553:>                                                        (0 + 2) / 2]
+[Stage 553:============================>                            (1 + 1) / 2]
+                                                                                
+09:10:58,620 INFO  ~ Completed training of split 4 of 8
+09:10:58,620 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 555:>                                                        (0 + 2) / 2]
+                                                                                
+09:11:20,285 INFO  ~ Completed training of split 5 of 8
+09:11:20,285 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 557:>                                                        (0 + 2) / 2]
+                                                                                
+09:11:41,711 INFO  ~ Completed training of split 6 of 8
+09:11:41,711 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 559:>                                                        (0 + 2) / 2]
+                                                                                
+09:12:02,196 INFO  ~ Completed training of split 7 of 8
+09:12:02,196 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 561:>                                                        (0 + 2) / 2]
+                                                                                
+09:12:24,955 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 32 ******
+09:12:25,018 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 564:>                                                        (0 + 2) / 2]
+                                                                                
+09:12:45,756 INFO  ~ Completed training of split 1 of 8
+09:12:45,756 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 566:>                                                        (0 + 2) / 2]
+                                                                                
+09:13:07,286 INFO  ~ Completed training of split 2 of 8
+09:13:07,286 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 568:>                                                        (0 + 2) / 2]
+                                                                                
+09:13:27,521 INFO  ~ Completed training of split 3 of 8
+09:13:27,521 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 570:>                                                        (0 + 2) / 2]
+                                                                                
+09:13:48,720 INFO  ~ Completed training of split 4 of 8
+09:13:48,720 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 572:>                                                        (0 + 2) / 2]
+                                                                                
+09:14:10,395 INFO  ~ Completed training of split 5 of 8
+09:14:10,395 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 574:>                                                        (0 + 2) / 2]
+                                                                                
+09:14:30,943 INFO  ~ Completed training of split 6 of 8
+09:14:30,943 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 576:>                                                        (0 + 2) / 2]
+                                                                                
+09:14:51,002 INFO  ~ Completed training of split 7 of 8
+09:14:51,002 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 578:>                                                        (0 + 2) / 2]
+                                                                                
+09:15:11,491 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 33 ******
+09:15:11,563 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 581:>                                                        (0 + 2) / 2]
+                                                                                
+09:15:32,451 INFO  ~ Completed training of split 1 of 8
+09:15:32,451 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 583:>                                                        (0 + 2) / 2]
+                                                                                
+09:15:53,858 INFO  ~ Completed training of split 2 of 8
+09:15:53,858 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 585:>                                                        (0 + 2) / 2]
+                                                                                
+09:16:13,980 INFO  ~ Completed training of split 3 of 8
+09:16:13,980 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 587:>                                                        (0 + 2) / 2]
+                                                                                
+09:16:36,016 INFO  ~ Completed training of split 4 of 8
+09:16:36,016 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 589:>                                                        (0 + 2) / 2]
+[Stage 589:============================>                            (1 + 1) / 2]
+                                                                                
+09:16:56,811 INFO  ~ Completed training of split 5 of 8
+09:16:56,811 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 591:>                                                        (0 + 2) / 2]
+                                                                                
+09:17:19,539 INFO  ~ Completed training of split 6 of 8
+09:17:19,539 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 593:>                                                        (0 + 2) / 2]
+[Stage 593:============================>                            (1 + 1) / 2]
+                                                                                
+09:17:44,070 INFO  ~ Completed training of split 7 of 8
+09:17:44,070 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 595:>                                                        (0 + 2) / 2]
+[Stage 595:============================>                            (1 + 1) / 2]
+                                                                                
+09:18:06,754 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 34 ******
+09:18:06,819 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 598:>                                                        (0 + 2) / 2]
+                                                                                
+09:18:28,815 INFO  ~ Completed training of split 1 of 8
+09:18:28,815 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 600:>                                                        (0 + 2) / 2]
+                                                                                
+09:18:49,540 INFO  ~ Completed training of split 2 of 8
+09:18:49,540 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 602:>                                                        (0 + 2) / 2]
+                                                                                
+09:19:10,403 INFO  ~ Completed training of split 3 of 8
+09:19:10,403 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 604:>                                                        (0 + 2) / 2]
+                                                                                
+09:19:30,745 INFO  ~ Completed training of split 4 of 8
+09:19:30,745 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 606:>                                                        (0 + 2) / 2]
+[Stage 606:============================>                            (1 + 1) / 2]
+                                                                                
+09:19:51,565 INFO  ~ Completed training of split 5 of 8
+09:19:51,565 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 608:>                                                        (0 + 2) / 2]
+                                                                                
+09:20:12,304 INFO  ~ Completed training of split 6 of 8
+09:20:12,304 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 610:>                                                        (0 + 2) / 2]
+                                                                                
+09:20:33,123 INFO  ~ Completed training of split 7 of 8
+09:20:33,123 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 612:>                                                        (0 + 2) / 2]
+                                                                                
+09:20:54,366 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 35 ******
+09:20:54,450 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 615:>                                                        (0 + 2) / 2]
+                                                                                
+09:21:15,741 INFO  ~ Completed training of split 1 of 8
+09:21:15,741 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 617:>                                                        (0 + 2) / 2]
+                                                                                
+09:21:35,803 INFO  ~ Completed training of split 2 of 8
+09:21:35,803 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 619:>                                                        (0 + 2) / 2]
+                                                                                
+09:21:57,767 INFO  ~ Completed training of split 3 of 8
+09:21:57,767 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 621:>                                                        (0 + 2) / 2]
+[Stage 621:============================>                            (1 + 1) / 2]
+                                                                                
+09:22:19,239 INFO  ~ Completed training of split 4 of 8
+09:22:19,239 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 623:>                                                        (0 + 2) / 2]
+[Stage 623:============================>                            (1 + 1) / 2]
+                                                                                
+09:22:41,750 INFO  ~ Completed training of split 5 of 8
+09:22:41,750 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 625:>                                                        (0 + 2) / 2]
+                                                                                
+09:23:03,885 INFO  ~ Completed training of split 6 of 8
+09:23:03,885 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 627:>                                                        (0 + 2) / 2]
+                                                                                
+09:23:24,573 INFO  ~ Completed training of split 7 of 8
+09:23:24,573 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 629:>                                                        (0 + 2) / 2]
+[Stage 629:============================>                            (1 + 1) / 2]
+                                                                                
+09:23:45,897 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 36 ******
+09:23:45,970 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 632:>                                                        (0 + 2) / 2]
+                                                                                
+09:24:07,238 INFO  ~ Completed training of split 1 of 8
+09:24:07,238 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 634:>                                                        (0 + 2) / 2]
+[Stage 634:=========================================================(2 + 0) / 2]
+                                                                                
+09:24:27,343 INFO  ~ Completed training of split 2 of 8
+09:24:27,343 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 636:>                                                        (0 + 2) / 2]
+                                                                                
+09:24:48,406 INFO  ~ Completed training of split 3 of 8
+09:24:48,406 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 638:>                                                        (0 + 2) / 2]
+[Stage 638:============================>                            (1 + 1) / 2]
+                                                                                
+09:25:09,545 INFO  ~ Completed training of split 4 of 8
+09:25:09,545 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 640:>                                                        (0 + 2) / 2]
+                                                                                
+09:25:30,795 INFO  ~ Completed training of split 5 of 8
+09:25:30,795 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 642:>                                                        (0 + 2) / 2]
+                                                                                
+09:25:52,073 INFO  ~ Completed training of split 6 of 8
+09:25:52,073 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 644:>                                                        (0 + 2) / 2]
+                                                                                
+09:26:12,448 INFO  ~ Completed training of split 7 of 8
+09:26:12,448 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 646:>                                                        (0 + 2) / 2]
+                                                                                
+09:26:32,258 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 37 ******
+09:26:32,326 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 649:>                                                        (0 + 2) / 2]
+                                                                                
+09:26:52,157 INFO  ~ Completed training of split 1 of 8
+09:26:52,157 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 651:>                                                        (0 + 2) / 2]
+[Stage 651:============================>                            (1 + 1) / 2]
+                                                                                
+09:27:13,139 INFO  ~ Completed training of split 2 of 8
+09:27:13,139 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 653:>                                                        (0 + 2) / 2]
+[Stage 653:============================>                            (1 + 1) / 2]
+                                                                                
+09:27:33,770 INFO  ~ Completed training of split 3 of 8
+09:27:33,770 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 655:>                                                        (0 + 2) / 2]
+                                                                                
+09:27:54,505 INFO  ~ Completed training of split 4 of 8
+09:27:54,506 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 657:>                                                        (0 + 2) / 2]
+                                                                                
+09:28:14,943 INFO  ~ Completed training of split 5 of 8
+09:28:14,943 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 659:>                                                        (0 + 2) / 2]
+[Stage 659:============================>                            (1 + 1) / 2]
+                                                                                
+09:28:35,975 INFO  ~ Completed training of split 6 of 8
+09:28:35,975 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 661:>                                                        (0 + 2) / 2]
+[Stage 661:============================>                            (1 + 1) / 2]
+                                                                                
+09:28:57,714 INFO  ~ Completed training of split 7 of 8
+09:28:57,714 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 663:>                                                        (0 + 2) / 2]
+                                                                                
+09:29:18,351 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 38 ******
+09:29:18,415 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 666:>                                                        (0 + 2) / 2]
+                                                                                
+09:29:39,161 INFO  ~ Completed training of split 1 of 8
+09:29:39,161 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 668:>                                                        (0 + 0) / 2]
+[Stage 668:>                                                        (0 + 2) / 2]
+                                                                                
+09:30:01,255 INFO  ~ Completed training of split 2 of 8
+09:30:01,255 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 670:>                                                        (0 + 2) / 2]
+                                                                                
+09:30:23,431 INFO  ~ Completed training of split 3 of 8
+09:30:23,431 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 672:>                                                        (0 + 2) / 2]
+                                                                                
+09:30:44,340 INFO  ~ Completed training of split 4 of 8
+09:30:44,340 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 674:>                                                        (0 + 2) / 2]
+                                                                                
+09:31:04,731 INFO  ~ Completed training of split 5 of 8
+09:31:04,731 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 676:>                                                        (0 + 2) / 2]
+                                                                                
+09:31:25,151 INFO  ~ Completed training of split 6 of 8
+09:31:25,151 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 678:>                                                        (0 + 2) / 2]
+                                                                                
+09:31:44,522 INFO  ~ Completed training of split 7 of 8
+09:31:44,522 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 680:>                                                        (0 + 2) / 2]
+                                                                                
+09:32:04,519 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 39 ******
+09:32:04,594 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 683:>                                                        (0 + 2) / 2]
+                                                                                
+09:32:24,346 INFO  ~ Completed training of split 1 of 8
+09:32:24,346 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 685:>                                                        (0 + 2) / 2]
+[Stage 685:============================>                            (1 + 1) / 2]
+                                                                                
+09:32:44,921 INFO  ~ Completed training of split 2 of 8
+09:32:44,921 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 687:>                                                        (0 + 2) / 2]
+                                                                                
+09:33:06,050 INFO  ~ Completed training of split 3 of 8
+09:33:06,050 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 689:>                                                        (0 + 2) / 2]
+                                                                                
+09:33:28,064 INFO  ~ Completed training of split 4 of 8
+09:33:28,064 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 691:>                                                        (0 + 2) / 2]
+[Stage 691:============================>                            (1 + 1) / 2]
+                                                                                
+09:33:49,390 INFO  ~ Completed training of split 5 of 8
+09:33:49,390 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 693:>                                                        (0 + 2) / 2]
+                                                                                
+09:34:09,911 INFO  ~ Completed training of split 6 of 8
+09:34:09,911 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 695:>                                                        (0 + 2) / 2]
+[Stage 695:============================>                            (1 + 1) / 2]
+                                                                                
+09:34:30,729 INFO  ~ Completed training of split 7 of 8
+09:34:30,730 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 697:>                                                        (0 + 2) / 2]
+[Stage 697:============================>                            (1 + 1) / 2]
+                                                                                
+09:34:51,159 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 40 ******
+09:34:51,231 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 700:>                                                        (0 + 2) / 2]
+                                                                                
+09:35:12,119 INFO  ~ Completed training of split 1 of 8
+09:35:12,119 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 702:>                                                        (0 + 2) / 2]
+[Stage 702:============================>                            (1 + 1) / 2]
+                                                                                
+09:35:32,488 INFO  ~ Completed training of split 2 of 8
+09:35:32,488 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 704:>                                                        (0 + 2) / 2]
+                                                                                
+09:35:53,386 INFO  ~ Completed training of split 3 of 8
+09:35:53,387 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 706:>                                                        (0 + 2) / 2]
+[Stage 706:============================>                            (1 + 1) / 2]
+                                                                                
+09:36:13,008 INFO  ~ Completed training of split 4 of 8
+09:36:13,009 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 708:>                                                        (0 + 2) / 2]
+                                                                                
+09:36:33,514 INFO  ~ Completed training of split 5 of 8
+09:36:33,514 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 710:>                                                        (0 + 2) / 2]
+                                                                                
+09:36:54,728 INFO  ~ Completed training of split 6 of 8
+09:36:54,729 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 712:>                                                        (0 + 2) / 2]
+                                                                                
+09:37:15,720 INFO  ~ Completed training of split 7 of 8
+09:37:15,720 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 714:>                                                        (0 + 2) / 2]
+                                                                                
+09:37:36,640 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 41 ******
+09:37:36,704 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 717:>                                                        (0 + 2) / 2]
+                                                                                
+09:37:57,263 INFO  ~ Completed training of split 1 of 8
+09:37:57,263 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 719:>                                                        (0 + 2) / 2]
+                                                                                
+09:38:18,299 INFO  ~ Completed training of split 2 of 8
+09:38:18,299 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 721:>                                                        (0 + 2) / 2]
+[Stage 721:============================>                            (1 + 1) / 2]
+                                                                                
+09:38:39,214 INFO  ~ Completed training of split 3 of 8
+09:38:39,214 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 723:>                                                        (0 + 2) / 2]
+                                                                                
+09:39:00,565 INFO  ~ Completed training of split 4 of 8
+09:39:00,565 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 725:>                                                        (0 + 2) / 2]
+                                                                                
+09:39:22,700 INFO  ~ Completed training of split 5 of 8
+09:39:22,700 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 727:>                                                        (0 + 2) / 2]
+                                                                                
+09:39:44,006 INFO  ~ Completed training of split 6 of 8
+09:39:44,006 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 729:>                                                        (0 + 2) / 2]
+[Stage 729:============================>                            (1 + 1) / 2]
+                                                                                
+09:40:05,329 INFO  ~ Completed training of split 7 of 8
+09:40:05,329 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 731:>                                                        (0 + 2) / 2]
+                                                                                
+09:40:25,679 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 42 ******
+09:40:25,757 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 734:>                                                        (0 + 2) / 2]
+                                                                                
+09:40:47,050 INFO  ~ Completed training of split 1 of 8
+09:40:47,050 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 736:>                                                        (0 + 2) / 2]
+                                                                                
+09:41:07,882 INFO  ~ Completed training of split 2 of 8
+09:41:07,882 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 738:>                                                        (0 + 2) / 2]
+                                                                                
+09:41:29,071 INFO  ~ Completed training of split 3 of 8
+09:41:29,071 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 740:>                                                        (0 + 2) / 2]
+                                                                                
+09:41:49,399 INFO  ~ Completed training of split 4 of 8
+09:41:49,399 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 742:>                                                        (0 + 2) / 2]
+                                                                                
+09:42:09,252 INFO  ~ Completed training of split 5 of 8
+09:42:09,252 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 744:>                                                        (0 + 2) / 2]
+                                                                                
+09:42:29,433 INFO  ~ Completed training of split 6 of 8
+09:42:29,433 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 746:>                                                        (0 + 2) / 2]
+                                                                                
+09:42:49,480 INFO  ~ Completed training of split 7 of 8
+09:42:49,480 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 748:>                                                        (0 + 2) / 2]
+                                                                                
+09:43:09,707 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 43 ******
+09:43:09,777 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 751:>                                                        (0 + 2) / 2]
+                                                                                
+09:43:29,908 INFO  ~ Completed training of split 1 of 8
+09:43:29,908 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 753:>                                                        (0 + 2) / 2]
+                                                                                
+09:43:49,471 INFO  ~ Completed training of split 2 of 8
+09:43:49,471 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 755:>                                                        (0 + 2) / 2]
+                                                                                
+09:44:09,007 INFO  ~ Completed training of split 3 of 8
+09:44:09,007 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 757:>                                                        (0 + 2) / 2]
+                                                                                
+09:44:28,772 INFO  ~ Completed training of split 4 of 8
+09:44:28,772 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 759:>                                                        (0 + 2) / 2]
+                                                                                
+09:44:48,864 INFO  ~ Completed training of split 5 of 8
+09:44:48,864 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 761:>                                                        (0 + 2) / 2]
+                                                                                
+09:45:08,330 INFO  ~ Completed training of split 6 of 8
+09:45:08,330 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 763:>                                                        (0 + 2) / 2]
+                                                                                
+09:45:28,296 INFO  ~ Completed training of split 7 of 8
+09:45:28,296 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 765:>                                                        (0 + 2) / 2]
+                                                                                
+09:45:47,965 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 44 ******
+09:45:48,028 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 768:>                                                        (0 + 2) / 2]
+[Stage 768:============================>                            (1 + 1) / 2]
+                                                                                
+09:46:07,332 INFO  ~ Completed training of split 1 of 8
+09:46:07,332 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 770:>                                                        (0 + 2) / 2]
+                                                                                
+09:46:27,072 INFO  ~ Completed training of split 2 of 8
+09:46:27,072 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 772:>                                                        (0 + 2) / 2]
+                                                                                
+09:46:47,260 INFO  ~ Completed training of split 3 of 8
+09:46:47,260 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 774:>                                                        (0 + 2) / 2]
+                                                                                
+09:47:07,035 INFO  ~ Completed training of split 4 of 8
+09:47:07,035 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 776:>                                                        (0 + 2) / 2]
+                                                                                
+09:47:27,084 INFO  ~ Completed training of split 5 of 8
+09:47:27,084 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 778:>                                                        (0 + 2) / 2]
+                                                                                
+09:47:47,126 INFO  ~ Completed training of split 6 of 8
+09:47:47,126 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 780:>                                                        (0 + 0) / 2]
+[Stage 780:>                                                        (0 + 2) / 2]
+                                                                                
+09:48:07,323 INFO  ~ Completed training of split 7 of 8
+09:48:07,323 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 782:>                                                        (0 + 2) / 2]
+                                                                                
+09:48:27,179 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 45 ******
+09:48:27,249 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 785:>                                                        (0 + 2) / 2]
+                                                                                
+09:48:47,283 INFO  ~ Completed training of split 1 of 8
+09:48:47,283 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 787:>                                                        (0 + 2) / 2]
+                                                                                
+09:49:07,970 INFO  ~ Completed training of split 2 of 8
+09:49:07,970 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 789:>                                                        (0 + 2) / 2]
+[Stage 789:============================>                            (1 + 1) / 2]
+                                                                                
+09:49:28,970 INFO  ~ Completed training of split 3 of 8
+09:49:28,970 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 791:>                                                        (0 + 2) / 2]
+                                                                                
+09:49:48,999 INFO  ~ Completed training of split 4 of 8
+09:49:48,999 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 793:>                                                        (0 + 2) / 2]
+[Stage 793:============================>                            (1 + 1) / 2]
+                                                                                
+09:50:09,080 INFO  ~ Completed training of split 5 of 8
+09:50:09,080 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 795:>                                                        (0 + 2) / 2]
+[Stage 795:=========================================================(2 + 0) / 2]
+                                                                                
+09:50:29,402 INFO  ~ Completed training of split 6 of 8
+09:50:29,402 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 797:>                                                        (0 + 2) / 2]
+                                                                                
+09:50:48,702 INFO  ~ Completed training of split 7 of 8
+09:50:48,702 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 799:>                                                        (0 + 2) / 2]
+                                                                                
+09:51:07,527 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 46 ******
+09:51:07,609 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 802:>                                                        (0 + 2) / 2]
+                                                                                
+09:51:27,207 INFO  ~ Completed training of split 1 of 8
+09:51:27,208 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 804:>                                                        (0 + 2) / 2]
+                                                                                
+09:51:47,087 INFO  ~ Completed training of split 2 of 8
+09:51:47,087 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 806:>                                                        (0 + 2) / 2]
+                                                                                
+09:52:06,582 INFO  ~ Completed training of split 3 of 8
+09:52:06,582 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 808:>                                                        (0 + 2) / 2]
+                                                                                
+09:52:26,196 INFO  ~ Completed training of split 4 of 8
+09:52:26,196 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 810:>                                                        (0 + 2) / 2]
+[Stage 810:============================>                            (1 + 1) / 2]
+                                                                                
+09:52:45,961 INFO  ~ Completed training of split 5 of 8
+09:52:45,961 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 812:>                                                        (0 + 2) / 2]
+                                                                                
+09:53:04,987 INFO  ~ Completed training of split 6 of 8
+09:53:04,987 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 814:>                                                        (0 + 2) / 2]
+                                                                                
+09:53:24,702 INFO  ~ Completed training of split 7 of 8
+09:53:24,702 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 816:>                                                        (0 + 2) / 2]
+                                                                                
+09:53:44,667 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 47 ******
+09:53:44,736 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 819:>                                                        (0 + 2) / 2]
+                                                                                
+09:54:03,992 INFO  ~ Completed training of split 1 of 8
+09:54:03,992 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 821:>                                                        (0 + 2) / 2]
+                                                                                
+09:54:23,077 INFO  ~ Completed training of split 2 of 8
+09:54:23,077 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 823:>                                                        (0 + 2) / 2]
+[Stage 823:============================>                            (1 + 1) / 2]
+                                                                                
+09:54:41,914 INFO  ~ Completed training of split 3 of 8
+09:54:41,914 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 825:>                                                        (0 + 2) / 2]
+[Stage 825:============================>                            (1 + 1) / 2]
+                                                                                
+09:55:01,415 INFO  ~ Completed training of split 4 of 8
+09:55:01,416 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 827:>                                                        (0 + 2) / 2]
+[Stage 827:============================>                            (1 + 1) / 2]
+                                                                                
+09:55:21,270 INFO  ~ Completed training of split 5 of 8
+09:55:21,270 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 829:>                                                        (0 + 2) / 2]
+                                                                                
+09:55:40,571 INFO  ~ Completed training of split 6 of 8
+09:55:40,571 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 831:>                                                        (0 + 2) / 2]
+                                                                                
+09:55:59,192 INFO  ~ Completed training of split 7 of 8
+09:55:59,192 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 833:>                                                        (0 + 2) / 2]
+                                                                                
+09:56:18,927 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 48 ******
+09:56:18,997 INFO  ~ Starting training of split 1 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 836:>                                                        (0 + 2) / 2]
+[Stage 836:============================>                            (1 + 1) / 2]
+                                                                                
+09:56:38,723 INFO  ~ Completed training of split 1 of 8
+09:56:38,723 INFO  ~ Starting training of split 2 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 838:>                                                        (0 + 2) / 2]
+                                                                                
+09:56:58,069 INFO  ~ Completed training of split 2 of 8
+09:56:58,069 INFO  ~ Starting training of split 3 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 840:>                                                        (0 + 2) / 2]
+[Stage 840:============================>                            (1 + 1) / 2]
+                                                                                
+09:57:18,185 INFO  ~ Completed training of split 3 of 8
+09:57:18,185 INFO  ~ Starting training of split 4 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 842:>                                                        (0 + 2) / 2]
+                                                                                
+09:57:36,928 INFO  ~ Completed training of split 4 of 8
+09:57:36,928 INFO  ~ Starting training of split 5 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 844:>                                                        (0 + 2) / 2]
+                                                                                
+09:57:56,624 INFO  ~ Completed training of split 5 of 8
+09:57:56,624 INFO  ~ Starting training of split 6 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 846:>                                                        (0 + 2) / 2]
+                                                                                
+09:58:17,019 INFO  ~ Completed training of split 6 of 8
+09:58:17,019 INFO  ~ Starting training of split 7 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 848:>                                                        (0 + 2) / 2]
+                                                                                
+09:58:39,277 INFO  ~ Completed training of split 7 of 8
+09:58:39,277 INFO  ~ Starting training of split 8 of 8. workerMiniBatchSize=30, averagingFreq=5, Configured for 2 workers
+
+[Stage 850:>                                                        (0 + 2) / 2]
+[Stage 850:============================>                            (1 + 1) / 2]
+                                                                                
+09:58:58,887 INFO  ~ Completed training of split 8 of 8
+****** Completed epoch 49 ******
+****** Evaluating network ******
+
+[Stage 851:>                                                        (0 + 1) / 2]
+[Stage 851:>                                                        (0 + 2) / 2]Labels: 
+
+                                                                                0: car
+
+1: pedestrian
+2: truck
+
+Evaluation:
+
+Examples labeled as 0 classified by model as 0: 121 times
+Examples labeled as 0 classified by model as 1: 29 times
+Examples labeled as 0 classified by model as 2: 37 times
+Examples labeled as 1 classified by model as 0: 14 times
+Examples labeled as 1 classified by model as 1: 156 times
+Examples labeled as 1 classified by model as 2: 13 times
+Examples labeled as 2 classified by model as 0: 15 times
+Examples labeled as 2 classified by model as 1: 35 times
+Examples labeled as 2 classified by model as 2: 180 times
+
+
+==========================Scores========================================
+ Accuracy:        0.7617
+ Precision:       0.7661
+ Recall:          0.7607
+ F1 Score:        0.7634
+========================================================================
+Training runtime: 137 min, 20 sec, 8240633 ms
+Testing runtime: 0 min, 7 sec, 7654 ms
+Total runtime: 137 min, 44 sec, 8264592 ms
+09:59:06,542 INFO  ~ Attempting to delete temporary directory: /tmp/hadoop-ow/dl4j/1492774884623_-3c719ae/0/
+09:59:06,566 INFO  ~ Deleted temporary directory: /tmp/hadoop-ow/dl4j/1492774884623_-3c719ae/0/
