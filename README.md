@@ -1,4 +1,4 @@
-# Image-Recognition-Using-Spark_and-DL4J
+# Image Recognition Using Spark and DL4J
 
 
 Distributed Image recognition with Convolutional Neural Networks using Spark and Deeplearning4J. CNN models adapted from examples on Deeplearning4J.
